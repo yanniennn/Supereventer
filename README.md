@@ -31,7 +31,6 @@ cp SKILL.md ~/.cursor/skills/supereventer/SKILL.md
 | 文件 | 说明 |
 |------|------|
 | `SKILL.md` | Cursor Agent Skill 主文件 |
-| `SE SKILL.docx` | 原始技能文档（参考） |
 
 ## License
 
