@@ -1,6 +1,6 @@
 # Supereventer
 
-全能活动策划 Cursor Agent Skill。支持团建、年会、发布会、沙龙、展会、培训等通用活动，以及嘉年华类专项策划。
+全能活动策划 Agent Skill。支持团建、年会、发布会、沙龙、展会、培训等通用活动，以及嘉年华类专项策划。
 
 ## 功能
 
@@ -9,16 +9,13 @@
 - **双预算模式**：无预算时输出参考估算；有预算时聚焦流程与人员分工
 - **文档导出**：方案完成后可导出为 Markdown 或 Word
 
-## 安装（Cursor）
+## 安装
 
-将本仓库克隆或下载后，把 `SKILL.md` 放到 Cursor 个人 skill 目录：
+将本仓库克隆或下载后，把 `SKILL.md` 放到你所用 AI 助手的 skill / 技能目录，或直接在对话中引用该文件。
 
 ```bash
-mkdir -p ~/.cursor/skills/supereventer
-cp SKILL.md ~/.cursor/skills/supereventer/SKILL.md
+git clone https://github.com/yanniennn/Supereventer.git
 ```
-
-或在 Cursor 中直接 @ 引用本仓库的 `SKILL.md`。
 
 ## 使用示例
 
@@ -30,7 +27,7 @@ cp SKILL.md ~/.cursor/skills/supereventer/SKILL.md
 
 | 文件 | 说明 |
 |------|------|
-| `SKILL.md` | Cursor Agent Skill 主文件 |
+| `SKILL.md` | 技能主文件 |
 
 ## License
 
